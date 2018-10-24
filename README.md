@@ -3,56 +3,27 @@ A Python Chatbot that can be taught how to respond.
 
 ## Installation
 1. Make sure you have the latest version of Python 3
-2. Clone this repo into your directory and your done! No extra dependencies or installations needed!
-
-## Running the Programs
- To use this you must have 2 programs running at the same time: 
-  - The Chat Receiver
-  - The Message Sender
-
-The Chat Reciever retrieves the data that others have sent,
-while the Message Sender sends your message to the server! 
-
-### To Run on Linux (Ubuntu 18.04 Tested)
-Open up two Terminals:
-
-Terminal 1:
-- `cd Dweety` or whatever the directory is named.
-- `python3 DweetClient_sender.py`
-
-Terminal 2:
-- `cd Dweety`
-- `python3 DweetClient_receiver.py`
-
-### To Run on Mac (macOs Sierra Tested) and Windows (Not Tested)
-Make sure Python 3 IDLE is installed.
-Open up two instances of IDLE 3,
-
-On the first instance:
-1. Go To `File` and then `Open` and from there choose DweetClient_sender.py in your directory.
-2. Run the file by pressing `F5` or run from the dropdown menu
-
-On the second instance:
-1. Go To `File` and then `Open` and from there choose DweetClient_reciever.py in your directory.
-2. Run that file by pressing `F5` or run from the dropdown menu
-
+2. Install Pandas - `pip3 install pandas`
+2. Clone this repo into your directory and your done!
 
 ## Usage
-On The sender program type in a Username (A display name) in the `Username: ` prompt.
-Type in what Nest (Server) you would like to join.
-Then type in a message you would like to send and press enter!
-In a few seconds you will see your Username followed by your message on Receiver Program!
-And if people are online then they will see your message too on their Receiver.
+Run the .py file in your favortite IDE or terminal!
 
-## Running In Browser
-If you would like to test out Dweety then you can simply run the index.html file in the master directory, in your browser! 
-This will give you all the functionality of Dweety without any installation!
+## How It Works
+This simple chatbot works differently then the traditional models. 
+Instead of tons of if/else statements that check for patterns between input and output. 
+This program creates a csv file, which are used for storing data in spreadsheet applications, 
+and stores the questions and responses that the computer can use to chat with the user. 
+Whats the difference?
+This allows for users to make complex or personalized chatbots and be able to share their custom chatbot by sharing their,
+`knowledge.csv` file giving other users the exact same bot! 
+Essentially, its a one program fits all scenario, you can have a complex or simple bot with one program.
 
 ## Improvements
-By no means is this project finished, there are many things I would like to see done with this project:
+By no means is this project finished, there are some things I would like to see done with this project:
 - A base knowledge.csv file that has basic responses to common phrases.
 
-If you have any ideas, Let me know in the comments!
+If you have any custom bots please share them!
 
 ## Liscensing
 This project is liscensed under the GNU GPLv3 Liscense,
@@ -60,6 +31,3 @@ which means you are encouraged to modify this project the way you like.
 
 ## Change Log
 > 1.0.0: Initial Release <br />
-> 1.0.1: Added the ability to choose server, and bug fixes <br />
-> 1.0.2: Fixed bug that caused high latency <br />
-> 1.0.3: Added simple browser client <br \>
