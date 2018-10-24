@@ -3,7 +3,6 @@ A Python Chatbot that can be taught how to respond.
 
 ## Installation
 1. Make sure you have the latest version of Python 3
-2. Install Pandas - `pip3 install pandas`
 2. Clone this repo into your directory and your done!
 
 ## Usage
