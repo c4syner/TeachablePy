@@ -9,14 +9,13 @@ A Python Chatbot that can be taught how to respond.
 Run the .py file in your favortite IDE or terminal!
 
 ## How It Works
-This simple chatbot works differently then the traditional models. 
-Instead of tons of if/else statements that check for patterns between input and output. 
-This program creates a csv file, which are used for storing data in spreadsheet applications, 
-and stores the questions and responses that the computer can use to chat with the user. 
-Whats the difference?
-This allows for users to make complex or personalized chatbots and be able to share their custom chatbot by sharing their,
-`knowledge.csv` file giving other users the exact same bot! 
-Essentially, its a one program fits all scenario, you can have a complex or simple bot with one program.
+This simple chatbot works differently then the traditional models. <br />
+Instead of tons of if/else statements that check for patterns between input and output. <br />
+This program creates a csv file and stores the questions and responses that the computer can use to chat with the user. <br />
+Whats the difference? <br />
+This allows for users to make complex or personalized chatbots and be able to share their custom chatbot by sharing their, <br />
+`knowledge.csv` file giving other users the exact same bot! <br />
+Essentially, its a one program fits all scenario, you can have a complex or simple bot with one program. <br />
 
 ## Improvements
 By no means is this project finished, there are some things I would like to see done with this project:
