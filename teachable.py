@@ -1,6 +1,5 @@
 
 import csv
-import pandas
 def addData(data1, data2):
   with open('knowledge.csv', 'a') as csvfile:
     mywriter = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
